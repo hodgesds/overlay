@@ -8,6 +8,5 @@ may break things.
 cd /var/db/repos
 git clone https://github.com/hodgesds/overlay.git hodgesd
 
-echo '[hodges-overlay]' >> /etc/portage/repos.conf/hodgesd.conf
-echo 'location = /var/db/repos/hodgesd/' >> /etc/portage/repos.conf/hodgesd.conf
+echo -e '[hodges-overlay]\nlocation = /var/db/repos/hodgesd/' > /etc/portage/repos.conf/hodgesd.conf
 ```
