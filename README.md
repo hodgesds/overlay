@@ -6,7 +6,7 @@ may break things.
 # Install
 ```
 cd /var/db/repos
-git clone https://github.com/hodgesds/overlay.git hodgesd
+git clone https://github.com/hodgesds/overlay.git hodgesds
 
-echo -e '[hodges-overlay]\nlocation = /var/db/repos/hodgesd/' > /etc/portage/repos.conf/hodgesd.conf
+echo -e '[hodgesds-overlay]\nlocation = /var/db/repos/hodgesds/' > /etc/portage/repos.conf/hodgesds.conf
 ```
